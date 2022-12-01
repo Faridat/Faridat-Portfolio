@@ -1,0 +1,24 @@
+html, body {
+  margin: 0; height: 100%; overflow: hidden
+}
+
+form{
+  position: absolute; display: flex; flex-direction: column;padding: 1rem;
+  left: 765px;
+  top: 220px;
+  z-index: 3;
+}
+input[type="email"],input[type="text"], textarea {
+  background-color : var(--grey); 
+  width: 400px;
+  border-radius: 5px;
+  margin: 8px;
+}
+
+#form-bg{
+  position: absolute;
+  width: 550px;
+  left: 710px;
+  top: 210px;
+  height: auto;
+}

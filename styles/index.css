@@ -1,33 +1,58 @@
+
 video {
   position: absolute;
+  display: block;
   border: none;
-  left: 50%;
-  bottom: 20%;
-  width: 45%;
+  width: 100vw;
   height: auto;
-  border-radius: 2.5%;
-}
-#headShot{
-  width: 40%;
-  height: auto;
-  left: 2.5%;
-  top: 10.5%;
+  margin: auto ;
+  border-radius: 2.5px;
 }
 
-#headShot-outline{
-  width: 34.5%;
+#headShot{
+  width: 50vw;
   height: auto;
-  left: 6.75%;
-  top: 16%;
+  margin: auto;
 }
 
 #hero-ribbon{
-  width: 62.5%;
-  top: 20%;
-  left: 2%;
+  width: 40vw;
+  top: 140px;
+  left: 70px;
+}
+@media only screen and (min-width: 1252px) {
+video {
+  position: absolute;
+  border: none;
+  left: 40.625rem;
+  top: 13.75rem;
+  width: 37.5rem;
+  height: auto;
+  border-radius: 2.5px;
 }
 
-#name, #pronunciation, #title{
+
+#headShot{
+  width: 32.813rem;
+  height: auto;
+  left: 6.25rem;
+  top: 5rem;
+}
+
+#headShot-outline{
+  width: 450px;
+  height: auto;
+  left: 160px;
+  top: 135px;
+}
+
+#hero-ribbon{
+  width: 900px;
+  top: 140px;
+  left: 70px;
+}
+
+#name, #pronunciation, #title, #work{
   font-family: var(--open-sans);
   color: var(--black);
   position: absolute;
@@ -36,35 +61,106 @@ video {
 #name{
   text-transform: uppercase;
   font-weight: bold;
-  top: 81%;
-  left: 20%;
+  top: 575px;
+  left: 310px;
 }
 
 #pronunciation{
-  top: 84%;
-  left: 17.5%;
+  top: 595px;
+  left: 272px;
 }
 
 #title{
-  top: 87%;
-  left: 20%;
+  top: 615px;
+  left: 310px;
 }
 
-
-.hero-container{
-  height: 650px;
+#work{
+  font-size: 80px;
+  left: 45px;
+  top: 785px;
 }
 
-.hero-container img{
+#work img {
   position:absolute
+} 
+
+#one{
+  width: 800px;
+  height: auto;
+  top: 1125px;
 }
 
-.hero-top{
-  background: var(--red);
-  height: 50%;
+#two{
+  width: 270px;
+  height: auto;
+  top: 1105px;
+  left: 755px;
+  z-index: -1;
 }
 
-.hero-bottom{
-  background: var(--gold);
-  height: 50%;
+#three{
+  width: 47px;
+  height: auto;
+  top: 1105px;
+  left: 753px;
+}
+
+#four{
+  width: 380px;
+  height: auto;
+  top: 1050px;
+  left: 410px;
+}
+
+span.ocs{
+  position: absolute;
+  font-family: var(--inter);
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--white);
+  top: 1115px;
+  left: 40px;
+}
+
+.ocs{
+  width: 1000px;
+  height: auto;
+  top: 1000px;
+}
+
+span.sbc{
+  position: absolute;
+  font-family: var(--inter);
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--white);
+  top: 1465px;
+  left: 1140px;
+}
+
+.sbc{
+  width: 1000px;
+  height: auto;
+  left: 440px;
+  top: 1300px;
+}
+
+span.dp{
+  position: absolute;
+  font-family: var(--inter);
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--white);
+  top: 1810px;
+  left: 30px;
+}
+
+.dp{
+  width: 1000px;
+  height: auto;
+  top: 1750px;
+}
+
+
 }
