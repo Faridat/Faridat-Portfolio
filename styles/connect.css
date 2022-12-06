@@ -2,11 +2,16 @@ html, body {
   margin: 0; height: 100%; overflow: hidden
 }
 
-form{
+form div{
   position: absolute; display: flex; flex-direction: column;padding: 1rem;
   left: 765px;
   top: 220px;
   z-index: 3;
+}
+
+form input[type="submit"]{
+  position: absolute;
+  left: 1200px;
 }
 input[type="email"],input[type="text"], textarea {
   background-color : var(--grey); 

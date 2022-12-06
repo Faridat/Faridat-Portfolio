@@ -3,9 +3,9 @@ font-family: 'Open Sans', sans-serif; */
 
 :root {
   --white: #ffffff;
-  --red: #99304b;
-  --orange: #c4762a;
-  --grey: #d9d9d9;
+  --red: #99304B;
+  --orange: #C3762A;
+  --gray: #D9D9D9;
   --black: #1e1e1e;
   --inter:'Inter', sans-serif;
   --open-sans: 'Open Sans', sans-serif;
@@ -14,6 +14,7 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
 
 
 nav{
@@ -114,6 +115,19 @@ nav ul{
 }
 
 @media only screen and (min-width: 1252px) {
+
+  
+  
+  footer div{
+    margin: 2rem;
+  }
+
+  footer span{
+    color: var(--white);
+    font-size: 24px;
+    display: block;
+    font-family: var(--inter);
+  }
 
   .hero-container img{
     position:absolute
