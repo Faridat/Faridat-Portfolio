@@ -1,0 +1,12 @@
+.resume {
+  position: absolute;
+  height: auto;
+  width: 90%;
+  top: 0;
+}
+
+.pdf {
+  position: absolute;
+  right: 200px;
+  top: 100px;
+}
