@@ -1,0 +1,8 @@
+h2 {
+  font-family: var(--open-sans);
+  color: var(--white);
+  font-size: 48px;
+  padding: 32px;
+  background-color: var(--red);
+  width: 100%;
+}

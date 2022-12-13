@@ -2,11 +2,12 @@ html {
   background-color: var(--red);
 }
 
-h1 {
+h2 {
   font-family: var(--open-sans);
   color: var(--white);
+  font-size: 48px;
   padding: 32px;
-  margin-left: 164px;
+  margin-left: 125px;
 }
 
 footer {
