@@ -25,7 +25,7 @@ video {
   footer{
     background:var(--orange);
     position: absolute;
-    top: 2400px;
+    top: 2700px;
     width: 100%;
     height: 8rem;
   }
@@ -185,11 +185,18 @@ span.dp{
   left: 30px;
 }
 
-.dp{
-  width: 1000px;
+.pm{
+  width: 1350px;
   height: auto;
-  top: 1750px;
+  top: 1600px;
+  left: -5px;
 }
 
+.ds{
+  width: 1300px;
+  height: auto;
+  top: 2300px;
+  right: 0px;
+}
 
 }

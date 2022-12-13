@@ -1,29 +1,70 @@
-html, body {
-  margin: 0; height: 100%; overflow: hidden
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: var(--orange);
 }
 
-form div{
-  position: absolute; display: flex; flex-direction: column;padding: 1rem;
+form div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
   left: 765px;
   top: 220px;
   z-index: 3;
 }
 
-form input[type="submit"]{
+form input[type='submit'] {
   position: absolute;
-  left: 1200px;
+  left: 1130px;
+  top: 570px;
+  z-index: 1;
+  padding: 2px 8px;
 }
-input[type="email"],input[type="text"], textarea {
-  background-color : var(--gray); 
+input[type='email'],
+input[type='text'],
+textarea {
+  background-color: var(--gray);
   width: 400px;
   border-radius: 5px;
   margin: 8px;
+  border: 1px solid var(--black);
+}
+label {
+  padding-left: 8px;
 }
 
-#form-bg{
+#form-bg {
   position: absolute;
   width: 550px;
   left: 710px;
   top: 210px;
   height: auto;
+}
+
+footer {
+  background: var(--orange);
+  position: absolute;
+  bottom: -250px;
+  width: 100%;
+  height: 8rem;
+}
+.social img {
+  height: auto;
+  width: 75px;
+}
+
+.social img:nth-child(odd) {
+  height: auto;
+  width: 60px;
+}
+
+.social {
+  position: absolute;
+  top: 630px;
+  left: 590px;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
 }
