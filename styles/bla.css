@@ -1,3 +1,6 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
 h2 {
   font-family: var(--open-sans);
   color: var(--white);
@@ -7,7 +10,20 @@ h2 {
   width: 100%;
 }
 
+p,
+h3 {
+  margin-left: 16px;
+}
+
 iframe {
   display: block;
   margin: 0 auto;
+}
+
+.three {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
 }
