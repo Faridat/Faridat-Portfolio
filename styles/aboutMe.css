@@ -1,37 +1,46 @@
-
-img{
+img {
   width: 600px;
   height: auto;
 }
 
-h2,h3{
+h2,
+h3 {
   font-family: 'Open Sans', sans-serif;
   color: var(--red);
 }
 
-p{
+p {
   font-family: 'Open Sans', sans-serif;
 }
 
-h2{
+h2 {
   font-size: 36px;
 }
 
-h3{
+h3 {
   font-size: 28px;
 }
 
-.hi{
+footer {
+  background: var(--orange);
+  position: absolute;
+  top: 1200px;
+  left: 0;
+  width: 100%;
+  height: 8rem;
+}
+
+.hi {
   width: 400px;
 }
 
-.flex-2{
+.flex-2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.flex-3{
+.flex-3 {
   display: flex;
   justify-content: space-around;
   width: 90%;
@@ -39,11 +48,11 @@ h3{
   padding-top: 96px;
 }
 
-.flex-3 div{
+.flex-3 div {
   width: 27%;
   padding: 0 24px;
 }
 
-.flex-3 .two{
+.flex-3 .two {
   margin-left: 64px;
 }
