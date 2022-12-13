@@ -3,6 +3,7 @@ body {
   margin: 0;
   height: 100%;
   background-color: var(--orange);
+  font-family: var(--open-sans);
 }
 
 form div {

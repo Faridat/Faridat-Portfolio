@@ -1,3 +1,6 @@
+html {
+  font-family: var(--open-sans);
+}
 .resume {
   position: absolute;
   height: auto;

@@ -1,0 +1,52 @@
+html {
+  background-color: var(--red);
+  font-family: var(--open-sans);
+}
+
+footer {
+  background: var(--orange);
+  position: absolute;
+  top: 1600px;
+  left: 0;
+  width: 100%;
+  height: 8rem;
+}
+
+h2 {
+  color: var(--white);
+  font-size: 48px;
+  padding: 32px;
+  margin-left: 125px;
+}
+
+.topic {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--white);
+  margin-top: 60px;
+  padding: 16px;
+}
+
+.topic img {
+  padding: 40px;
+}
+
+.one {
+  width: 350px;
+  height: auto;
+  margin-right: 200px;
+  margin-left: 50px;
+}
+
+.two {
+  width: 150px;
+  height: auto;
+  margin-right: 400px;
+  margin-left: 50px;
+}
+
+.three {
+  margin-right: 330px;
+}
