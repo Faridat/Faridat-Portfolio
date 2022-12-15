@@ -19,11 +19,15 @@ h2 {
   margin-left: 125px;
 }
 
+p {
+  margin-right: 32px;
+}
+
 .topic {
   width: 75%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: var(--white);
   margin-top: 60px;
   padding: 16px;
@@ -34,7 +38,7 @@ h2 {
 }
 
 .one {
-  width: 350px;
+  width: 375px;
   height: auto;
   margin-right: 200px;
   margin-left: 50px;
