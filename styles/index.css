@@ -238,4 +238,7 @@ video {
     top: 2435px;
     left: 1125px;
   }
+  a {
+    text-decoration: none;
+  }
 }
