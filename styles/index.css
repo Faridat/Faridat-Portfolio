@@ -238,13 +238,14 @@ video {
     top: 2435px;
     left: 1125px;
   }
-  .mmrw {
-    position: absolute;
-    left: 850px;
-    top: 625px;
-    font-size: 36px;
-  }
   a {
     text-decoration: none;
+  }
+  .mmrw {
+    position: absolute;
+    left: 800px;
+    top: 625px;
+    font-size: 32px;
+    text-decoration: underline;
   }
 }
